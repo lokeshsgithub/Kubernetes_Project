@@ -1,0 +1,20 @@
+{
+ "jenkins-runner.jobs": {
+    "kubernetes-project": {
+        "isDefault": true,
+        "runWith": "jenkins-master",
+        "name": "kubernetes-project",
+        
+        }   
+    },
+    "jenkins-runner.hostConfigs": {
+        "jenkins-master": {
+            "url": "http://13.233.225.250:8080",
+            "user": "lokesh",
+            "password": "password",
+            "useCrumbIssuer": true,
+        }
+        
+    }
+
+}
